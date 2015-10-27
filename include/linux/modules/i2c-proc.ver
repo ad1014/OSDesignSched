@@ -1,0 +1,10 @@
+#define __ver_i2c_deregister_entry	ec85ba8b
+#define i2c_deregister_entry	_set_ver(i2c_deregister_entry)
+#define __ver_i2c_detect	17c00c7e
+#define i2c_detect	_set_ver(i2c_detect)
+#define __ver_i2c_proc_real	75db8725
+#define i2c_proc_real	_set_ver(i2c_proc_real)
+#define __ver_i2c_register_entry	30769871
+#define i2c_register_entry	_set_ver(i2c_register_entry)
+#define __ver_i2c_sysctl_real	548d55a1
+#define i2c_sysctl_real	_set_ver(i2c_sysctl_real)

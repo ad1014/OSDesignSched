@@ -1,0 +1,1 @@
+#define CONFIG_ES3210_MODULE 1

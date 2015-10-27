@@ -1,0 +1,13 @@
+hwacpi.o: hwacpi.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h
+hwgpe.o: hwgpe.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h
+hwregs.o: hwregs.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h
+hwsleep.o: hwsleep.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h
+hwtimer.o: hwtimer.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h

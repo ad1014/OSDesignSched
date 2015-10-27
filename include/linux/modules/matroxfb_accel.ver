@@ -1,0 +1,8 @@
+#define __ver_matrox_cfbX_init	107d3c02
+#define matrox_cfbX_init	_set_ver(matrox_cfbX_init)
+#define __ver_matrox_text_round	f34caa2b
+#define matrox_text_round	_set_ver(matrox_text_round)
+#define __ver_initMatrox	8bba154d
+#define initMatrox	_set_ver(initMatrox)
+#define __ver_matrox_init_putc	f48bf703
+#define matrox_init_putc	_set_ver(matrox_init_putc)

@@ -1,0 +1,3 @@
+ifeq (-e stext mwavedd.o smapi.o tp3780i.o 3780i.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += mwave.o
+endif

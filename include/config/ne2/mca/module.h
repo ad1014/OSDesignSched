@@ -1,0 +1,1 @@
+#define CONFIG_NE2_MCA_MODULE 1

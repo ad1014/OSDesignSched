@@ -1,0 +1,1 @@
+#define CONFIG_MIXCOMWD_MODULE 1

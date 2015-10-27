@@ -1,0 +1,12 @@
+#define __ver_dev_ethtool	be5fd120
+#define dev_ethtool	_set_ver(dev_ethtool)
+#define __ver_ethtool_op_get_link	4e5ba1b2
+#define ethtool_op_get_link	_set_ver(ethtool_op_get_link)
+#define __ver_ethtool_op_get_sg	4ac477ab
+#define ethtool_op_get_sg	_set_ver(ethtool_op_get_sg)
+#define __ver_ethtool_op_get_tx_csum	55f627ea
+#define ethtool_op_get_tx_csum	_set_ver(ethtool_op_get_tx_csum)
+#define __ver_ethtool_op_set_sg	bbbf4437
+#define ethtool_op_set_sg	_set_ver(ethtool_op_set_sg)
+#define __ver_ethtool_op_set_tx_csum	a2f49de9
+#define ethtool_op_set_tx_csum	_set_ver(ethtool_op_set_tx_csum)

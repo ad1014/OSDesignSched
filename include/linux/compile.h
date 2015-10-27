@@ -1,0 +1,6 @@
+#define UTS_VERSION "#15 Tue Oct 27 17:39:48 EDT 2015"
+#define LINUX_COMPILE_TIME "17:39:48"
+#define LINUX_COMPILE_BY "root"
+#define LINUX_COMPILE_HOST "osvm"
+#define LINUX_COMPILE_DOMAIN ""
+#define LINUX_COMPILER "gcc version 3.3.5 (Debian 1:3.3.5-13)"

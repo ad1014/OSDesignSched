@@ -1,0 +1,12 @@
+#define __ver_probe_hwif	2c643e93
+#define probe_hwif	_set_ver(probe_hwif)
+#define __ver_save_match	62d2a26b
+#define save_match	_set_ver(save_match)
+#define __ver_init_irq	e0f97070
+#define init_irq	_set_ver(init_irq)
+#define __ver_init_gendisk	844088bc
+#define init_gendisk	_set_ver(init_gendisk)
+#define __ver_hwif_init	a4193586
+#define hwif_init	_set_ver(hwif_init)
+#define __ver_export_ide_init_queue	619df0de
+#define export_ide_init_queue	_set_ver(export_ide_init_queue)

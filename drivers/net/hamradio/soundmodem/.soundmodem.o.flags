@@ -1,0 +1,3 @@
+ifeq (-e stext sm.o sm_sbc.o sm_wss.o sm_afsk1200.o sm_afsk2400_7.o sm_afsk2400_8.o sm_afsk2666.o sm_hapn4800.o sm_psk4800.o sm_fsk9600.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += soundmodem.o
+endif

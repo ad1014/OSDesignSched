@@ -1,0 +1,1 @@
+#define CONFIG_SOUND_MSS_MODULE 1

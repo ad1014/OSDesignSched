@@ -1,0 +1,1 @@
+#define CONFIG_RISCOM8_MODULE 1

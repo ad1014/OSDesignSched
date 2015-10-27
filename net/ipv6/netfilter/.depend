@@ -1,0 +1,182 @@
+ip6_queue.o: ip6_queue.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/notifier.h \
+   /home/user/linux-2.4.27/include/linux/netdevice.h \
+   /home/user/linux-2.4.27/include/linux/netfilter.h \
+   /home/user/linux-2.4.27/include/linux/netlink.h \
+   /home/user/linux-2.4.27/include/linux/spinlock.h \
+   /home/user/linux-2.4.27/include/linux/brlock.h \
+   /home/user/linux-2.4.27/include/linux/sysctl.h \
+   /home/user/linux-2.4.27/include/linux/proc_fs.h \
+   /home/user/linux-2.4.27/include/net/sock.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/net/ip6_route.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv4/ip_queue.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv4/ip_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6table_filter.o: ip6table_filter.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6table_mangle.o: ip6table_mangle.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6_tables.o: ip6_tables.c \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/kmod.h \
+   /home/user/linux-2.4.27/include/linux/vmalloc.h \
+   /home/user/linux-2.4.27/include/linux/netdevice.h \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/tcp.h \
+   /home/user/linux-2.4.27/include/linux/udp.h \
+   /home/user/linux-2.4.27/include/linux/icmpv6.h \
+   /home/user/linux-2.4.27/include/net/ip.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h \
+   /home/user/linux-2.4.27/include/asm/semaphore.h \
+   /home/user/linux-2.4.27/include/linux/proc_fs.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/netfilter/debug.h) \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv4/lockhelp.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv4/listhelp.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/smp.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/kmod.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/proc/fs.h)
+ip6t_ah.o: ip6t_ah.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/net/checksum.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_ah.h
+ip6t_dst.o: ip6t_dst.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/net/checksum.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/asm/byteorder.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_opts.h
+ip6t_esp.o: ip6t_esp.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/net/checksum.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_esp.h
+ip6t_eui64.o: ip6t_eui64.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/if_ether.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6t_frag.o: ip6t_frag.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/net/checksum.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/asm/byteorder.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_frag.h
+ip6t_hbh.o: ip6t_hbh.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/net/checksum.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/asm/byteorder.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_opts.h
+ip6t_hl.o: ip6t_hl.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_hl.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6t_ipv6header.o: ip6t_ipv6header.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/net/checksum.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_ipv6header.h
+ip6t_length.o: ip6t_length.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_length.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6t_limit.o: ip6t_limit.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/spinlock.h \
+   /home/user/linux-2.4.27/include/linux/interrupt.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_limit.h
+ip6t_LOG.o: ip6t_LOG.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ip.h \
+   /home/user/linux-2.4.27/include/linux/spinlock.h \
+   /home/user/linux-2.4.27/include/linux/icmpv6.h \
+   /home/user/linux-2.4.27/include/net/udp.h \
+   /home/user/linux-2.4.27/include/net/tcp.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/net/route.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_LOG.h
+ip6t_mac.o: ip6t_mac.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/if_ether.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_mac.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6t_mark.o: ip6t_mark.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_mark.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6t_MARK.o: ip6t_MARK.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ip.h \
+   /home/user/linux-2.4.27/include/net/checksum.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_MARK.h
+ip6t_multiport.o: ip6t_multiport.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/linux/udp.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/in.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_multiport.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h
+ip6t_owner.o: ip6t_owner.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/file.h \
+   /home/user/linux-2.4.27/include/net/sock.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_owner.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/smp.h)
+ip6t_rt.o: ip6t_rt.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/skbuff.h \
+   /home/user/linux-2.4.27/include/linux/ipv6.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/net/checksum.h \
+   /home/user/linux-2.4.27/include/net/ipv6.h \
+   /home/user/linux-2.4.27/include/asm/byteorder.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6_tables.h \
+   /home/user/linux-2.4.27/include/linux/netfilter_ipv6/ip6t_rt.h

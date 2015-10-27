@@ -1,0 +1,1 @@
+#define CONFIG_INTEL_RNG_MODULE 1

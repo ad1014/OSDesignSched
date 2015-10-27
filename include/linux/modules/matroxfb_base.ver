@@ -1,0 +1,10 @@
+#define __ver_matroxfb_register_driver	31a22f8a
+#define matroxfb_register_driver	_set_ver(matroxfb_register_driver)
+#define __ver_matroxfb_unregister_driver	2a4e28e7
+#define matroxfb_unregister_driver	_set_ver(matroxfb_unregister_driver)
+#define __ver_matroxfb_switch	f4e75257
+#define matroxfb_switch	_set_ver(matroxfb_switch)
+#define __ver_matroxfb_wait_for_sync	905e770c
+#define matroxfb_wait_for_sync	_set_ver(matroxfb_wait_for_sync)
+#define __ver_matroxfb_enable_irq	e799233f
+#define matroxfb_enable_irq	_set_ver(matroxfb_enable_irq)

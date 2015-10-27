@@ -1,0 +1,1 @@
+#define CONFIG_SOUND_PAS_MODULE 1

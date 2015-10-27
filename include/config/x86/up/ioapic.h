@@ -1,0 +1,1 @@
+#define CONFIG_X86_UP_IOAPIC 1

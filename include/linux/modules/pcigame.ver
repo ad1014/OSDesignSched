@@ -1,0 +1,4 @@
+#define __ver_pcigame_attach	4736ad68
+#define pcigame_attach	_set_ver(pcigame_attach)
+#define __ver_pcigame_detach	0fb9386c
+#define pcigame_detach	_set_ver(pcigame_detach)

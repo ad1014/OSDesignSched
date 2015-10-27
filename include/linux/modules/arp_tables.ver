@@ -1,0 +1,12 @@
+#define __ver_arpt_register_table	d6165e2e
+#define arpt_register_table	_set_ver(arpt_register_table)
+#define __ver_arpt_unregister_table	0405c310
+#define arpt_unregister_table	_set_ver(arpt_unregister_table)
+#define __ver_arpt_do_table	cbc64b58
+#define arpt_do_table	_set_ver(arpt_do_table)
+#define __ver_arpt_find_target_lock	eaa8d12c
+#define arpt_find_target_lock	_set_ver(arpt_find_target_lock)
+#define __ver_arpt_register_target	807fbe80
+#define arpt_register_target	_set_ver(arpt_register_target)
+#define __ver_arpt_unregister_target	bcf2586a
+#define arpt_unregister_target	_set_ver(arpt_unregister_target)

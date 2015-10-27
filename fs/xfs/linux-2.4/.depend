@@ -1,0 +1,390 @@
+kmem.o: kmem.c \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/mm.h \
+   /home/user/linux-2.4.27/include/linux/vmalloc.h \
+   /home/user/linux-2.4.27/include/linux/swap.h \
+   time.h \
+   kmem.h
+kmem.h: \
+   /home/user/linux-2.4.27/include/linux/slab.h
+	@touch kmem.h
+mrlock.o: mrlock.c \
+   /home/user/linux-2.4.27/include/linux/time.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/asm/system.h \
+   /home/user/linux-2.4.27/include/linux/interrupt.h \
+   /home/user/linux-2.4.27/include/asm/current.h \
+   mrlock.h
+mrlock.h: \
+   /home/user/linux-2.4.27/include/linux/time.h \
+   /home/user/linux-2.4.27/include/linux/wait.h \
+   /home/user/linux-2.4.27/include/asm/atomic.h \
+   /home/user/linux-2.4.27/include/asm/semaphore.h
+	@touch mrlock.h
+mutex.h: \
+   /home/user/linux-2.4.27/include/linux/spinlock.h \
+   /home/user/linux-2.4.27/include/asm/semaphore.h
+	@touch mutex.h
+sema.h: \
+   /home/user/linux-2.4.27/include/linux/time.h \
+   /home/user/linux-2.4.27/include/linux/wait.h \
+   /home/user/linux-2.4.27/include/asm/atomic.h \
+   /home/user/linux-2.4.27/include/asm/semaphore.h
+	@touch sema.h
+spin.h: \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/spinlock.h
+	@touch spin.h
+sv.h: \
+   /home/user/linux-2.4.27/include/linux/wait.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/spinlock.h
+	@touch sv.h
+time.h: \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/time.h
+	@touch time.h
+xfs_aops.o: xfs_aops.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inum.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_log.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_sb.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_trans.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dmapi.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mount.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dinode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_error.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rw.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_iomap.h \
+   /home/user/linux-2.4.27/include/linux/iobuf.h
+xfs_buf.o: xfs_buf.c \
+   /home/user/linux-2.4.27/include/linux/stddef.h \
+   /home/user/linux-2.4.27/include/linux/errno.h \
+   /home/user/linux-2.4.27/include/linux/slab.h \
+   /home/user/linux-2.4.27/include/linux/pagemap.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/vmalloc.h \
+   /home/user/linux-2.4.27/include/linux/blkdev.h \
+   /home/user/linux-2.4.27/include/linux/locks.h \
+   /home/user/linux-2.4.27/include/linux/sysctl.h \
+   /home/user/linux-2.4.27/include/linux/proc_fs.h \
+   xfs_linux.h
+xfs_buf.h: \
+   /home/user/linux-2.4.27/include/linux/version.h \
+   /home/user/linux-2.4.27/include/linux/list.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/linux/spinlock.h \
+   /home/user/linux-2.4.27/include/asm/system.h \
+   /home/user/linux-2.4.27/include/linux/mm.h \
+   /home/user/linux-2.4.27/include/linux/fs.h \
+   /home/user/linux-2.4.27/include/linux/uio.h
+	@touch xfs_buf.h
+xfs_file.o: xfs_file.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inum.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_log.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_sb.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_trans.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dmapi.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mount.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dinode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_error.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rw.h \
+   /home/user/linux-2.4.27/include/linux/iobuf.h \
+   /home/user/linux-2.4.27/include/linux/dcache.h \
+   /home/user/linux-2.4.27/include/linux/smp_lock.h \
+   /home/user/linux-2.4.27/include/linux/mman.h
+xfs_fs_subr.o: xfs_fs_subr.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h
+xfs_globals.o: xfs_globals.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   xfs_cred.h \
+   xfs_sysctl.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_refcache.h
+xfs_ioctl.o: xfs_ioctl.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_fs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inum.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_log.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_trans.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_sb.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dmapi.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mount.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dinode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bit.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rtalloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_error.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_itable.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rw.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_acl.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_cap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mac.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_buf_item.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_utils.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dfrag.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_fsops.h \
+   /home/user/linux-2.4.27/include/linux/dcache.h \
+   /home/user/linux-2.4.27/include/linux/iobuf.h
+xfs_iops.o: xfs_iops.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_fs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inum.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_log.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_trans.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_sb.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ag.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dmapi.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_quota.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mount.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dinode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bit.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rtalloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_error.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_itable.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rw.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_acl.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_cap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mac.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_buf_item.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_utils.h \
+   /home/user/linux-2.4.27/include/linux/xattr.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/xfs/posix/acl.h)
+xfs_linux.h: \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_types.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_arch.h \
+   kmem.h \
+   mrlock.h \
+   spin.h \
+   sv.h \
+   mutex.h \
+   sema.h \
+   time.h \
+   /home/user/linux-2.4.27/fs/xfs/support/qsort.h \
+   /home/user/linux-2.4.27/fs/xfs/support/ktrace.h \
+   /home/user/linux-2.4.27/fs/xfs/support/debug.h \
+   /home/user/linux-2.4.27/fs/xfs/support/move.h \
+   /home/user/linux-2.4.27/fs/xfs/support/uuid.h \
+   /home/user/linux-2.4.27/include/linux/mm.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/linux/blkdev.h \
+   /home/user/linux-2.4.27/include/linux/slab.h \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/file.h \
+   /home/user/linux-2.4.27/include/linux/swap.h \
+   /home/user/linux-2.4.27/include/linux/errno.h \
+   /home/user/linux-2.4.27/include/linux/locks.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/bitops.h \
+   /home/user/linux-2.4.27/include/linux/major.h \
+   /home/user/linux-2.4.27/include/linux/pagemap.h \
+   /home/user/linux-2.4.27/include/linux/seq_file.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/proc_fs.h \
+   /home/user/linux-2.4.27/include/asm/page.h \
+   /home/user/linux-2.4.27/include/asm/div64.h \
+   /home/user/linux-2.4.27/include/asm/param.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h \
+   /home/user/linux-2.4.27/include/asm/byteorder.h \
+   /home/user/linux-2.4.27/include/asm/unaligned.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_behavior.h \
+   xfs_vfs.h \
+   xfs_cred.h \
+   xfs_vnode.h \
+   xfs_stats.h \
+   xfs_sysctl.h \
+   xfs_iops.h \
+   xfs_super.h \
+   xfs_globals.h \
+   xfs_fs_subr.h \
+   xfs_lrw.h \
+   xfs_buf.h
+	@touch xfs_linux.h
+xfs_lrw.o: xfs_lrw.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_fs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inum.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_log.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_trans.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_sb.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ag.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dmapi.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_quota.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mount.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dinode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bit.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rtalloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_error.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_itable.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rw.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_refcache.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_acl.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_cap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mac.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inode_item.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_buf_item.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_utils.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_iomap.h \
+   /home/user/linux-2.4.27/include/linux/capability.h
+xfs_stats.o: xfs_stats.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/include/linux/proc_fs.h
+xfs_stats.h: \
+   $(wildcard /home/user/linux-2.4.27/include/config/proc/fs.h)
+	@touch xfs_stats.h
+xfs_super.o: xfs_super.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inum.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_log.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_clnt.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_trans.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_sb.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dmapi.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_quota.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mount.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_btree.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ialloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2_sf.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dinode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inode.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bmap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_bit.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rtalloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_error.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_itable.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_rw.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_acl.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_cap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mac.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_attr.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_buf_item.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_utils.h \
+   xfs_version.h \
+   /home/user/linux-2.4.27/include/linux/init.h
+xfs_super.h: \
+   $(wildcard /home/user/linux-2.4.27/include/config/xfs/dmapi.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/xfs/quota.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/xfs/posix/acl.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/xfs/security.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/xfs/rt.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/xfs/trace.h)
+	@touch xfs_super.h
+xfs_sysctl.o: xfs_sysctl.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_refcache.h \
+   /home/user/linux-2.4.27/include/linux/sysctl.h \
+   /home/user/linux-2.4.27/include/linux/proc_fs.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/proc/fs.h)
+xfs_sysctl.h: \
+   /home/user/linux-2.4.27/include/linux/sysctl.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/sysctl.h)
+	@touch xfs_sysctl.h
+xfs_vfs.o: xfs_vfs.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_fs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_macros.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_inum.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_log.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_clnt.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_trans.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_sb.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_ag.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dir2.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_imap.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_alloc.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_dmapi.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_mount.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_quota.h
+xfs_vfs.h: \
+   /home/user/linux-2.4.27/include/linux/vfs.h \
+   /home/user/linux-2.4.27/fs/xfs/xfs_fs.h
+	@touch xfs_vfs.h
+xfs_vnode.o: xfs_vnode.c \
+   /home/user/linux-2.4.27/fs/xfs/xfs.h
+.PRECIOUS:	kmem.h \
+	mrlock.h \
+	mutex.h \
+	sema.h \
+	spin.h \
+	sv.h \
+	time.h \
+	xfs_buf.h \
+	xfs_linux.h \
+	xfs_stats.h \
+	xfs_super.h \
+	xfs_sysctl.h \
+	xfs_vfs.h \
+

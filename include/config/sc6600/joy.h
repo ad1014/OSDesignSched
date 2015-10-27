@@ -1,0 +1,1 @@
+#define CONFIG_SC6600_JOY 1

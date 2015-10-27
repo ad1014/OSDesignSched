@@ -1,0 +1,4 @@
+#define __ver_i2c_sgi_add_bus	86ba7138
+#define i2c_sgi_add_bus	_set_ver(i2c_sgi_add_bus)
+#define __ver_i2c_sgi_del_bus	68403fd0
+#define i2c_sgi_del_bus	_set_ver(i2c_sgi_del_bus)

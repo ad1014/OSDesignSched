@@ -1,0 +1,1 @@
+#define CONFIG_LNE390_MODULE 1

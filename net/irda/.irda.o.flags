@@ -1,0 +1,3 @@
+ifeq (-e stext iriap.o iriap_event.o irlmp.o irlmp_event.o irlmp_frame.o irlap.o irlap_event.o irlap_frame.o timer.o qos.o irqueue.o irttp.o irda_device.o irias_object.o crc.o wrapper.o af_irda.o discovery.o parameters.o irsyms.o irproc.o irsysctl.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += irda.o
+endif

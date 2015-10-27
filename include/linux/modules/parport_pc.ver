@@ -1,0 +1,4 @@
+#define __ver_parport_pc_probe_port	851652b3
+#define parport_pc_probe_port	_set_ver(parport_pc_probe_port)
+#define __ver_parport_pc_unregister_port	34f4c24e
+#define parport_pc_unregister_port	_set_ver(parport_pc_unregister_port)

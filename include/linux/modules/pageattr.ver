@@ -1,0 +1,2 @@
+#define __ver_change_page_attr	bd3f8a83
+#define change_page_attr	_set_ver(change_page_attr)

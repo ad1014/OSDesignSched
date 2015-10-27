@@ -1,0 +1,4 @@
+#define __ver_register_pccard_driver	1c442d6c
+#define register_pccard_driver	_set_ver(register_pccard_driver)
+#define __ver_unregister_pccard_driver	db348cd2
+#define unregister_pccard_driver	_set_ver(unregister_pccard_driver)

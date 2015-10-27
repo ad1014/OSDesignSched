@@ -1,0 +1,3 @@
+ifeq (-e stext lapb_in.o lapb_out.o lapb_subr.o lapb_timer.o lapb_iface.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += lapb.o
+endif

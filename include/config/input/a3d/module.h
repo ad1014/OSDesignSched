@@ -1,0 +1,1 @@
+#define CONFIG_INPUT_A3D_MODULE 1

@@ -1,0 +1,1 @@
+#define CONFIG_PSS_MIXER 1

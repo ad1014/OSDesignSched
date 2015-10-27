@@ -1,0 +1,8 @@
+#define __ver_register_quota_format	ac80e8d8
+#define register_quota_format	_set_ver(register_quota_format)
+#define __ver_unregister_quota_format	ff690e35
+#define unregister_quota_format	_set_ver(unregister_quota_format)
+#define __ver_dqstats	f4f52f93
+#define dqstats	_set_ver(dqstats)
+#define __ver_init_dquot_operations	87d8be2e
+#define init_dquot_operations	_set_ver(init_dquot_operations)

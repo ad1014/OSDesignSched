@@ -1,0 +1,4 @@
+#define __ver_i2c_sibyte_add_bus	cc5e393e
+#define i2c_sibyte_add_bus	_set_ver(i2c_sibyte_add_bus)
+#define __ver_i2c_sibyte_del_bus	7401d154
+#define i2c_sibyte_del_bus	_set_ver(i2c_sibyte_del_bus)

@@ -1,0 +1,1 @@
+#undef  CONFIG_HISAX_AVM_A1_CS

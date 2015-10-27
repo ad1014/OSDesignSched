@@ -1,0 +1,38 @@
+rsaddr.o: rsaddr.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h
+rscalc.o: rscalc.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+rscreate.o: rscreate.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+rsdump.o: rsdump.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h
+rsio.o: rsio.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h
+rsirq.o: rsirq.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h
+rslist.o: rslist.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h
+rsmemory.o: rsmemory.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h
+rsmisc.o: rsmisc.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h
+rsutils.o: rsutils.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h
+rsxface.o: rsxface.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acresrc.h

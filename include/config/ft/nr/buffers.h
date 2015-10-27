@@ -1,0 +1,1 @@
+#define CONFIG_FT_NR_BUFFERS (3)

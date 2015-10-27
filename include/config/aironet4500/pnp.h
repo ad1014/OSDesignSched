@@ -1,0 +1,1 @@
+#define CONFIG_AIRONET4500_PNP 1

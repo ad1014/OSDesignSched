@@ -1,0 +1,1 @@
+#define CONFIG_OPTCD_MODULE 1

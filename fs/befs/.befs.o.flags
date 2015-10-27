@@ -1,0 +1,3 @@
+ifeq (-e stext datastream.o btree.o super.o inode.o debug.o io.o linuxvfs.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += befs.o
+endif

@@ -1,0 +1,4 @@
+#define __ver_cyber2000fb_attach	5b87ee4d
+#define cyber2000fb_attach	_set_ver(cyber2000fb_attach)
+#define __ver_cyber2000fb_detach	0cc3ede5
+#define cyber2000fb_detach	_set_ver(cyber2000fb_detach)

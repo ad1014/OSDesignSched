@@ -1,0 +1,3 @@
+ifeq (-e stext alloc.o anode.o buffer.o dentry.o dir.o dnode.o ea.o file.o inode.o map.o name.o namei.o super.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += hpfs.o
+endif

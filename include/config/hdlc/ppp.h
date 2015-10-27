@@ -1,0 +1,1 @@
+#define CONFIG_HDLC_PPP 1

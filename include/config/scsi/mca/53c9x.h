@@ -1,0 +1,1 @@
+#undef  CONFIG_SCSI_MCA_53C9X

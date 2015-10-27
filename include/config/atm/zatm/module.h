@@ -1,0 +1,1 @@
+#define CONFIG_ATM_ZATM_MODULE 1

@@ -1,0 +1,1 @@
+#define CONFIG_FT_ALPHA_CLOCK (0)

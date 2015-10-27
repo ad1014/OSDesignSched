@@ -1,0 +1,1 @@
+#define CONFIG_MIDI_VIA82CXXX 1

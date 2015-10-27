@@ -1,0 +1,1 @@
+#define CONFIG_RTC_MODULE 1

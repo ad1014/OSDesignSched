@@ -1,0 +1,1 @@
+#define CONFIG_53C700_IO_MAPPED 1

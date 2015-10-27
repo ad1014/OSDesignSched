@@ -1,0 +1,1 @@
+#define CONFIG_CDU31A_MODULE 1

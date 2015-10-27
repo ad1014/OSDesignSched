@@ -1,0 +1,1 @@
+#define CONFIG_CYCLOMX_X25 1

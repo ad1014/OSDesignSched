@@ -1,0 +1,2 @@
+#define __ver_i8253_lock	977cb481
+#define i8253_lock	_set_ver(i8253_lock)

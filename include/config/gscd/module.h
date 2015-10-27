@@ -1,0 +1,1 @@
+#define CONFIG_GSCD_MODULE 1

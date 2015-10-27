@@ -1,0 +1,80 @@
+init/do_mounts.o: init/do_mounts.c \
+   /home/user/linux-2.4.27/include/linux/slab.h \
+   /home/user/linux-2.4.27/include/linux/devfs_fs_kernel.h \
+   /home/user/linux-2.4.27/include/linux/unistd.h \
+   /home/user/linux-2.4.27/include/linux/ctype.h \
+   /home/user/linux-2.4.27/include/linux/blk.h \
+   /home/user/linux-2.4.27/include/linux/fd.h \
+   /home/user/linux-2.4.27/include/linux/tty.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/nfs_fs.h \
+   /home/user/linux-2.4.27/include/linux/nfs_fs_sb.h \
+   /home/user/linux-2.4.27/include/linux/nfs_mount.h \
+   /home/user/linux-2.4.27/include/linux/minix_fs.h \
+   /home/user/linux-2.4.27/include/linux/ext2_fs.h \
+   /home/user/linux-2.4.27/include/linux/romfs_fs.h \
+   /home/user/linux-2.4.27/include/linux/cramfs_fs.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/blk/dev/initrd.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/arch/s390.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/root/nfs.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/blk/dev/ram.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/blk/dev/fd.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/ppc/iseries.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/devfs/fs.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/all/ppc.h) \
+   /home/user/linux-2.4.27/include/../lib/inflate.c
+init/main.o: init/main.c \
+   /home/user/linux-2.4.27/include/linux/proc_fs.h \
+   /home/user/linux-2.4.27/include/linux/devfs_fs_kernel.h \
+   /home/user/linux-2.4.27/include/linux/unistd.h \
+   /home/user/linux-2.4.27/include/linux/string.h \
+   /home/user/linux-2.4.27/include/linux/ctype.h \
+   /home/user/linux-2.4.27/include/linux/delay.h \
+   /home/user/linux-2.4.27/include/linux/utsname.h \
+   /home/user/linux-2.4.27/include/linux/ioport.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/smp_lock.h \
+   /home/user/linux-2.4.27/include/linux/blk.h \
+   /home/user/linux-2.4.27/include/linux/hdreg.h \
+   /home/user/linux-2.4.27/include/linux/iobuf.h \
+   /home/user/linux-2.4.27/include/linux/bootmem.h \
+   /home/user/linux-2.4.27/include/linux/file.h \
+   /home/user/linux-2.4.27/include/linux/tty.h \
+   /home/user/linux-2.4.27/include/asm/io.h \
+   /home/user/linux-2.4.27/include/asm/bugs.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/arch/s390.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/acpi.h) \
+   /home/user/linux-2.4.27/include/linux/acpi.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/pci.h) \
+   /home/user/linux-2.4.27/include/linux/pci.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/dio.h) \
+   /home/user/linux-2.4.27/include/linux/dio.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/zorro.h) \
+   /home/user/linux-2.4.27/include/linux/zorro.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/mtrr.h) \
+   /home/user/linux-2.4.27/include/asm/mtrr.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/nubus.h) \
+   /home/user/linux-2.4.27/include/linux/nubus.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/isapnp.h) \
+   /home/user/linux-2.4.27/include/linux/isapnp.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/irda.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/x86/local/apic.h) \
+   /home/user/linux-2.4.27/include/asm/smp.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/tc.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/sysvipc.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/smp.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/modules.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/blk/dev/initrd.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/proc/fs.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/sysctl.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/acpi/interpreter.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/sbus.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/ppc.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/mca.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/arch/acorn.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/pcmcia.h)
+init/version.o: init/version.c \
+   /home/user/linux-2.4.27/include/linux/uts.h \
+   /home/user/linux-2.4.27/include/linux/utsname.h \
+   /home/user/linux-2.4.27/include/linux/version.h \
+   /home/user/linux-2.4.27/include/linux/compile.h

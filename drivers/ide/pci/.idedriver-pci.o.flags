@@ -1,0 +1,3 @@
+ifeq (-e stext cmd640.o generic.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += idedriver-pci.o
+endif

@@ -1,0 +1,1 @@
+#define CONFIG_ZFTAPE_MODULE 1

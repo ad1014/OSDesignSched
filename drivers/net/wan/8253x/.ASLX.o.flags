@@ -1,0 +1,3 @@
+ifeq (-e stext 8253xini.o 8253xnet.o 8253xsyn.o crc32.o 8253xdbg.o 8253xplx.o 8253xtty.o 8253xchr.o 8253xint.o amcc5920.o 8253xmcs.o 8253xutl.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += ASLX.o
+endif

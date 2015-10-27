@@ -1,0 +1,1 @@
+#define CONFIG_ATM_IA_MODULE 1

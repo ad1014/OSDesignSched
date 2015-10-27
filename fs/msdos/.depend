@@ -1,0 +1,12 @@
+msdosfs_syms.o: msdosfs_syms.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/mm.h \
+   /home/user/linux-2.4.27/include/linux/msdos_fs.h \
+   /home/user/linux-2.4.27/include/linux/init.h
+namei.o: namei.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/msdos_fs.h \
+   /home/user/linux-2.4.27/include/linux/errno.h \
+   /home/user/linux-2.4.27/include/linux/string.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h

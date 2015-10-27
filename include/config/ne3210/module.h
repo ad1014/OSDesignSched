@@ -1,0 +1,1 @@
+#define CONFIG_NE3210_MODULE 1

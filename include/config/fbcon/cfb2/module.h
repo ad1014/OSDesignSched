@@ -1,0 +1,1 @@
+#define CONFIG_FBCON_CFB2_MODULE 1

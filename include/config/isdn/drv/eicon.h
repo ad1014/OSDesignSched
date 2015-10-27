@@ -1,0 +1,1 @@
+#define CONFIG_ISDN_DRV_EICON 1

@@ -1,0 +1,1 @@
+#define CONFIG_DECNET_ROUTER 1

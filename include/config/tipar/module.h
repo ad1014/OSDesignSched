@@ -1,0 +1,1 @@
+#define CONFIG_TIPAR_MODULE 1

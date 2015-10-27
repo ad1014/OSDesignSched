@@ -1,0 +1,6 @@
+#define __ver_init_atmel_card	bb4400e6
+#define init_atmel_card	_set_ver(init_atmel_card)
+#define __ver_stop_atmel_card	c6eabab0
+#define stop_atmel_card	_set_ver(stop_atmel_card)
+#define __ver_reset_atmel_card	ac4b1164
+#define reset_atmel_card	_set_ver(reset_atmel_card)

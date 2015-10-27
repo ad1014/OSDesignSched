@@ -1,0 +1,3 @@
+ifeq (-e stext pci/idedriver-pci.o ide-core.o legacy/idedriver-legacy.o ppc/idedriver-ppc.o arm/idedriver-arm.o ide-disk.o ide-detect.o raid/idedriver-raid.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += idedriver.o
+endif

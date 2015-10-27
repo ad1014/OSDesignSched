@@ -1,0 +1,1 @@
+#define CONFIG_MCDX_MODULE 1

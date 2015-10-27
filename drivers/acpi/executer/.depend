@@ -1,0 +1,117 @@
+exconfig.o: exconfig.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+exconvrt.o: exconvrt.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h
+excreate.o: excreate.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+exdump.o: exdump.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acparser.h
+exfield.o: exfield.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acdispat.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
+exfldio.o: exfldio.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acdispat.h
+exmisc.o: exmisc.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h
+exmutex.o: exmutex.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
+exnames.o: exnames.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h
+exoparg1.o: exoparg1.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acparser.h \
+   /home/user/linux-2.4.27/include/acpi/acdispat.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+exoparg2.o: exoparg2.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acparser.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h
+exoparg3.o: exoparg3.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/acparser.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h
+exoparg6.o: exoparg6.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/acparser.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h
+exprep.o: exprep.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+exregion.o: exregion.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
+exresnte.o: exresnte.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acdispat.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acparser.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h
+exresolv.o: exresolv.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acdispat.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acparser.h
+exresop.o: exresop.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acparser.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
+exstore.o: exstore.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acdispat.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+exstoren.o: exstoren.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h
+exstorob.o: exstorob.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
+exsystem.o: exsystem.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h
+exutils.o: exutils.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h \
+   /home/user/linux-2.4.27/include/acpi/amlcode.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h

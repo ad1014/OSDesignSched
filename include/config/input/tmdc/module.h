@@ -1,0 +1,1 @@
+#define CONFIG_INPUT_TMDC_MODULE 1

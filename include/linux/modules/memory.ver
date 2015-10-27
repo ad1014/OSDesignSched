@@ -1,0 +1,2 @@
+#define __ver_get_user_pages	3b13114d
+#define get_user_pages	_set_ver(get_user_pages)

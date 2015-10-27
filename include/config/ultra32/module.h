@@ -1,0 +1,1 @@
+#define CONFIG_ULTRA32_MODULE 1

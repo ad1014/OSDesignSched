@@ -1,0 +1,1 @@
+#define CONFIG_WANPIPE_MULTPPP 1

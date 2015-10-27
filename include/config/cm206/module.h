@@ -1,0 +1,1 @@
+#define CONFIG_CM206_MODULE 1

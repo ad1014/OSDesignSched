@@ -1,0 +1,3 @@
+ifeq (-e stext zftape-rw.o zftape-ctl.o zftape-read.o zftape-write.o zftape-vtbl.o zftape-eof.o zftape-init.o zftape-buffers.o zftape_syms.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += zftape.o
+endif

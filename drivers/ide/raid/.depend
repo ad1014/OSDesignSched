@@ -1,0 +1,87 @@
+ataraid.o: ataraid.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/linux/mm.h \
+   /home/user/linux-2.4.27/include/asm/semaphore.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/smp_lock.h \
+   /home/user/linux-2.4.27/include/linux/blkdev.h \
+   /home/user/linux-2.4.27/include/linux/blkpg.h \
+   /home/user/linux-2.4.27/include/linux/genhd.h \
+   /home/user/linux-2.4.27/include/linux/ioctl.h \
+   /home/user/linux-2.4.27/include/linux/kdev_t.h \
+   /home/user/linux-2.4.27/include/linux/swap.h \
+   /home/user/linux-2.4.27/include/linux/ide.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h \
+   ataraid.h
+ataraid.h: \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/asm/semaphore.h \
+   /home/user/linux-2.4.27/include/linux/blkdev.h \
+   /home/user/linux-2.4.27/include/linux/blkpg.h \
+   /home/user/linux-2.4.27/include/linux/genhd.h \
+   /home/user/linux-2.4.27/include/linux/ioctl.h \
+   /home/user/linux-2.4.27/include/linux/ide.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h
+	@touch ataraid.h
+hptraid.o: hptraid.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/smp_lock.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/linux/blkdev.h \
+   /home/user/linux-2.4.27/include/linux/blkpg.h \
+   /home/user/linux-2.4.27/include/linux/genhd.h \
+   /home/user/linux-2.4.27/include/linux/ioctl.h \
+   /home/user/linux-2.4.27/include/linux/ide.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h \
+   ataraid.h \
+   hptraid.h
+medley.o: medley.c \
+   /home/user/linux-2.4.27/include/linux/version.h \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/smp_lock.h \
+   /home/user/linux-2.4.27/include/linux/blkdev.h \
+   /home/user/linux-2.4.27/include/linux/blkpg.h \
+   /home/user/linux-2.4.27/include/linux/genhd.h \
+   /home/user/linux-2.4.27/include/linux/ioctl.h \
+   /home/user/linux-2.4.27/include/linux/ide.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h \
+   ataraid.h
+pdcraid.o: pdcraid.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/smp_lock.h \
+   /home/user/linux-2.4.27/include/linux/blkdev.h \
+   /home/user/linux-2.4.27/include/linux/blkpg.h \
+   /home/user/linux-2.4.27/include/linux/genhd.h \
+   /home/user/linux-2.4.27/include/linux/ioctl.h \
+   /home/user/linux-2.4.27/include/linux/ide.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h \
+   ataraid.h \
+   pdcraid.h
+silraid.o: silraid.c \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/linux/sched.h \
+   /home/user/linux-2.4.27/include/linux/smp_lock.h \
+   /home/user/linux-2.4.27/include/linux/blkdev.h \
+   /home/user/linux-2.4.27/include/linux/blkpg.h \
+   /home/user/linux-2.4.27/include/linux/genhd.h \
+   /home/user/linux-2.4.27/include/linux/ioctl.h \
+   /home/user/linux-2.4.27/include/linux/ide.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h \
+   ataraid.h \
+   silraid.h
+.PRECIOUS:	ataraid.h \
+

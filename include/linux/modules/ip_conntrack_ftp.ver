@@ -1,0 +1,2 @@
+#define __ver_ip_ftp_lock	f8a2ff02
+#define ip_ftp_lock	_set_ver(ip_ftp_lock)

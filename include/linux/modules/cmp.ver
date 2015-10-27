@@ -1,0 +1,4 @@
+#define __ver_cmp_register_opcr	fc496e59
+#define cmp_register_opcr	_set_ver(cmp_register_opcr)
+#define __ver_cmp_unregister_opcr	38028c8a
+#define cmp_unregister_opcr	_set_ver(cmp_unregister_opcr)

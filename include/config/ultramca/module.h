@@ -1,0 +1,1 @@
+#define CONFIG_ULTRAMCA_MODULE 1

@@ -1,0 +1,1 @@
+#define CONFIG_SC6600 1

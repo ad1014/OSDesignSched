@@ -1,0 +1,1 @@
+#define CONFIG_VLSI_FIR_MODULE 1

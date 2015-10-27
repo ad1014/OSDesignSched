@@ -1,0 +1,2 @@
+#define __ver_ip_irc_lock	b742bf07
+#define ip_irc_lock	_set_ver(ip_irc_lock)
