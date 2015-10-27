@@ -45,7 +45,7 @@ struct exec_domain;
 #define CLONE_NEWNS	0x00020000	/* New namespace group? */
 
 #define CLONE_SIGNAL	(CLONE_SIGHAND | CLONE_THREAD)
-
+#define MAX_PRIORITY_LEVEL 256
 /*
  * These are the constant used to fake the fixed-point load-average
  * counting. Some notes:
@@ -358,6 +358,7 @@ struct task_struct {
 	wait_queue_head_t wait_chldexit;	/* for wait4() */
 	struct completion *vfork_done;		/* for vfork() */
 	unsigned long rt_priority;
+	int prio;                               /*for holding queue priority*/
 	unsigned long it_real_value, it_prof_value, it_virt_value;
 	unsigned long it_real_incr, it_prof_incr, it_virt_incr;
 	struct timer_list real_timer;
