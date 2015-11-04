@@ -1,0 +1,1 @@
+#define CONFIG_SOUND_TRIX_MODULE 1

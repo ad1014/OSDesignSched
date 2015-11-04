@@ -1,0 +1,12 @@
+#define __ver_register_wan_device	4dc7742b
+#define register_wan_device	_set_ver(register_wan_device)
+#define __ver_unregister_wan_device	0ebe03d1
+#define unregister_wan_device	_set_ver(unregister_wan_device)
+#define __ver_wanrouter_encapsulate	15e674d7
+#define wanrouter_encapsulate	_set_ver(wanrouter_encapsulate)
+#define __ver_wanrouter_type_trans	f4baec22
+#define wanrouter_type_trans	_set_ver(wanrouter_type_trans)
+#define __ver_lock_adapter_irq	546498ad
+#define lock_adapter_irq	_set_ver(lock_adapter_irq)
+#define __ver_unlock_adapter_irq	ba8f756a
+#define unlock_adapter_irq	_set_ver(unlock_adapter_irq)

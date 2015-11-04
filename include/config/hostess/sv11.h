@@ -1,0 +1,1 @@
+#undef  CONFIG_HOSTESS_SV11

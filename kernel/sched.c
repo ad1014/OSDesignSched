@@ -69,7 +69,7 @@ extern void mem_use(void);
 #endif
 
 #define NICE_TO_TICKS(nice)	(TICK_SCALE(20-(nice))+1)
-
+#define MAX_PRIORITY_LEVEL 256
 
 /*
  *	Init task must be ok at boot for the ix86 as we will check its signals
@@ -78,6 +78,10 @@ extern void mem_use(void);
  
 struct task_struct * init_tasks[NR_CPUS] = {&init_task, };
 
+struct runqueue{
+	struct task_struct *current_task;
+	struct list_head priority_levels[MAX_PRIORITY_LEVEL];
+};
 /*
  * The tasklist_lock protects the linked list of processes.
  *
@@ -332,10 +336,20 @@ static inline void add_to_runqueue(struct task_struct * p)
 	nr_running++;
 }
 
+static inline void add_to_runqueue1(struct task_struct *p,struct runqueue *rq)
+{
+	list_add_tail(&p->run_list,&(rq->priority_levels[p->prio]));
+}
+
 static inline void move_last_runqueue(struct task_struct * p)
 {
 	list_del(&p->run_list);
 	list_add_tail(&p->run_list, &runqueue_head);
+}
+
+static inline void remove_from_queue(struct task_struct *p)
+{
+	list_del(&p->run_list);
 }
 
 /*

@@ -1,0 +1,1 @@
+#define CONFIG_USB_TIGL_MODULE 1

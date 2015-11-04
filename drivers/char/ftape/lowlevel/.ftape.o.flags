@@ -1,0 +1,3 @@
+ifeq (-e stext ftape-init.o fdc-io.o fdc-isr.o ftape-bsm.o ftape-ctl.o ftape-read.o ftape-rw.o ftape-write.o ftape-io.o ftape-calibr.o ftape-ecc.o fc-10.o ftape-buffer.o ftape-format.o ftape_syms.o ftape-tracing.o ftape-proc.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += ftape.o
+endif

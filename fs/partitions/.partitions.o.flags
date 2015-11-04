@@ -1,0 +1,3 @@
+ifeq (-e stext check.o acorn.o amiga.o atari.o mac.o ldm.o msdos.o osf.o sgi.o sun.o ultrix.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += partitions.o
+endif

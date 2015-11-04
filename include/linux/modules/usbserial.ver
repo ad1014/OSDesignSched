@@ -1,0 +1,8 @@
+#define __ver_usb_serial_register	eddc22f2
+#define usb_serial_register	_set_ver(usb_serial_register)
+#define __ver_usb_serial_deregister	6ee8e736
+#define usb_serial_deregister	_set_ver(usb_serial_deregister)
+#define __ver_ezusb_writememory	c1bb34b1
+#define ezusb_writememory	_set_ver(ezusb_writememory)
+#define __ver_ezusb_set_reset	eb855a4c
+#define ezusb_set_reset	_set_ver(ezusb_set_reset)

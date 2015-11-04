@@ -1,0 +1,1 @@
+#define CONFIG_WANPIPE_FR 1

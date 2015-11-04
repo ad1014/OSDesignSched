@@ -1,0 +1,3 @@
+ifeq (-e stext balloc.o cylinder.o dir.o file.o ialloc.o inode.o namei.o super.o symlink.o truncate.o util.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += ufs.o
+endif

@@ -1,0 +1,1 @@
+#define CONFIG_DMASCC_MODULE 1

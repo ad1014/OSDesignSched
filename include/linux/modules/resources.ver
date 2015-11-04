@@ -1,0 +1,8 @@
+#define __ver_atm_dev_register	b9753d84
+#define atm_dev_register	_set_ver(atm_dev_register)
+#define __ver_atm_dev_deregister	92179c20
+#define atm_dev_deregister	_set_ver(atm_dev_deregister)
+#define __ver_atm_dev_lookup	58caab26
+#define atm_dev_lookup	_set_ver(atm_dev_lookup)
+#define __ver_shutdown_atm_dev	4cde915d
+#define shutdown_atm_dev	_set_ver(shutdown_atm_dev)

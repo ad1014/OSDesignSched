@@ -1,0 +1,3 @@
+ifeq (-e stext lmc_debug.o lmc_media.o lmc_main.o lmc_proto.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += lmc.o
+endif

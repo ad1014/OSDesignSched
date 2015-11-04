@@ -1,0 +1,2 @@
+#define __ver_idt77105_init	e4dec0e8
+#define idt77105_init	_set_ver(idt77105_init)

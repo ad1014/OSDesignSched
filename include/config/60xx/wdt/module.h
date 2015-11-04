@@ -1,0 +1,1 @@
+#define CONFIG_60XX_WDT_MODULE 1

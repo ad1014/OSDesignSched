@@ -1,0 +1,10 @@
+#define __ver_usb_hcd_pci_probe	4527f568
+#define usb_hcd_pci_probe	_set_ver(usb_hcd_pci_probe)
+#define __ver_usb_hcd_pci_remove	ad132a36
+#define usb_hcd_pci_remove	_set_ver(usb_hcd_pci_remove)
+#define __ver_usb_hcd_pci_suspend	0440b7d8
+#define usb_hcd_pci_suspend	_set_ver(usb_hcd_pci_suspend)
+#define __ver_usb_hcd_pci_resume	397733f6
+#define usb_hcd_pci_resume	_set_ver(usb_hcd_pci_resume)
+#define __ver_usb_hcd_giveback_urb	fbb838bf
+#define usb_hcd_giveback_urb	_set_ver(usb_hcd_giveback_urb)

@@ -1,0 +1,1 @@
+#define CONFIG_COMX_HW_COMX_MODULE 1

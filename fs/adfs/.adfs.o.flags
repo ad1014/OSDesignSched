@@ -1,0 +1,3 @@
+ifeq (-e stext dir.o dir_f.o dir_fplus.o file.o inode.o map.o super.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += adfs.o
+endif

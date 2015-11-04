@@ -1,0 +1,2 @@
+#define __ver_matrox_millennium	6a66e429
+#define matrox_millennium	_set_ver(matrox_millennium)

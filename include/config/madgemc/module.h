@@ -1,0 +1,1 @@
+#define CONFIG_MADGEMC_MODULE 1

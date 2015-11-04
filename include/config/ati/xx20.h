@@ -1,0 +1,1 @@
+#undef  CONFIG_ATI_XX20

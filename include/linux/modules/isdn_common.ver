@@ -1,0 +1,8 @@
+#define __ver_isdn_register_divert	b7757abb
+#define isdn_register_divert	_set_ver(isdn_register_divert)
+#define __ver_register_isdn	2afe1478
+#define register_isdn	_set_ver(register_isdn)
+#define __ver_isdn_ppp_register_compressor	a1f8625b
+#define isdn_ppp_register_compressor	_set_ver(isdn_ppp_register_compressor)
+#define __ver_isdn_ppp_unregister_compressor	36275954
+#define isdn_ppp_unregister_compressor	_set_ver(isdn_ppp_unregister_compressor)

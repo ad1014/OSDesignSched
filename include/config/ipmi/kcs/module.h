@@ -1,0 +1,1 @@
+#define CONFIG_IPMI_KCS_MODULE 1

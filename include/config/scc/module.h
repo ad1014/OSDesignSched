@@ -1,0 +1,1 @@
+#define CONFIG_SCC_MODULE 1

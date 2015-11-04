@@ -1,0 +1,6 @@
+#define __ver_matroxfb_g450_setclk	ed390faa
+#define matroxfb_g450_setclk	_set_ver(matroxfb_g450_setclk)
+#define __ver_g450_mnp2f	4b162b90
+#define g450_mnp2f	_set_ver(g450_mnp2f)
+#define __ver_matroxfb_g450_setpll_cond	a483d8c1
+#define matroxfb_g450_setpll_cond	_set_ver(matroxfb_g450_setpll_cond)

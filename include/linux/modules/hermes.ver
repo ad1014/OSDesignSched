@@ -1,0 +1,16 @@
+#define __ver_hermes_struct_init	5bfb4a4b
+#define hermes_struct_init	_set_ver(hermes_struct_init)
+#define __ver_hermes_init	08b840a2
+#define hermes_init	_set_ver(hermes_init)
+#define __ver_hermes_docmd_wait	cb548710
+#define hermes_docmd_wait	_set_ver(hermes_docmd_wait)
+#define __ver_hermes_allocate	485ca2bc
+#define hermes_allocate	_set_ver(hermes_allocate)
+#define __ver_hermes_bap_pread	01028a7b
+#define hermes_bap_pread	_set_ver(hermes_bap_pread)
+#define __ver_hermes_bap_pwrite	d184b2eb
+#define hermes_bap_pwrite	_set_ver(hermes_bap_pwrite)
+#define __ver_hermes_read_ltv	56966035
+#define hermes_read_ltv	_set_ver(hermes_read_ltv)
+#define __ver_hermes_write_ltv	01b35442
+#define hermes_write_ltv	_set_ver(hermes_write_ltv)

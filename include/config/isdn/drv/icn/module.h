@@ -1,0 +1,1 @@
+#define CONFIG_ISDN_DRV_ICN_MODULE 1

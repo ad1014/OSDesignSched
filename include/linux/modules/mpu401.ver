@@ -1,0 +1,10 @@
+#define __ver_probe_mpu401	cd91465c
+#define probe_mpu401	_set_ver(probe_mpu401)
+#define __ver_attach_mpu401	e2c3e63d
+#define attach_mpu401	_set_ver(attach_mpu401)
+#define __ver_unload_mpu401	5febf284
+#define unload_mpu401	_set_ver(unload_mpu401)
+#define __ver_intchk_mpu401	5fe6dd42
+#define intchk_mpu401	_set_ver(intchk_mpu401)
+#define __ver_mpuintr	57ca69ca
+#define mpuintr	_set_ver(mpuintr)

@@ -1,0 +1,1 @@
+#define CONFIG_HYSDN_CAPI 1

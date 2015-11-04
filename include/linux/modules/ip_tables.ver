@@ -1,0 +1,16 @@
+#define __ver_ipt_register_table	e72da945
+#define ipt_register_table	_set_ver(ipt_register_table)
+#define __ver_ipt_unregister_table	8407889c
+#define ipt_unregister_table	_set_ver(ipt_unregister_table)
+#define __ver_ipt_register_match	5f41532f
+#define ipt_register_match	_set_ver(ipt_register_match)
+#define __ver_ipt_unregister_match	d7df2955
+#define ipt_unregister_match	_set_ver(ipt_unregister_match)
+#define __ver_ipt_do_table	e695a205
+#define ipt_do_table	_set_ver(ipt_do_table)
+#define __ver_ipt_register_target	c036059a
+#define ipt_register_target	_set_ver(ipt_register_target)
+#define __ver_ipt_unregister_target	682e83a2
+#define ipt_unregister_target	_set_ver(ipt_unregister_target)
+#define __ver_ipt_find_target_lock	c6eee97f
+#define ipt_find_target_lock	_set_ver(ipt_find_target_lock)

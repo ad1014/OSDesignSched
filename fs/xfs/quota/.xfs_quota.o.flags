@@ -1,0 +1,3 @@
+ifeq (-e stext xfs_qm_stats.o xfs_dquot.o xfs_dquot_item.o xfs_trans_dquot.o xfs_qm_syscalls.o xfs_qm_bhv.o xfs_qm.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += xfs_quota.o
+endif

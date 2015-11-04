@@ -1,0 +1,1 @@
+#define CONFIG_IBMLANA_MODULE 1

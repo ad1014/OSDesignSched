@@ -1,0 +1,1 @@
+#define CONFIG_HDLC_X25 1

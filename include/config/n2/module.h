@@ -1,0 +1,1 @@
+#define CONFIG_N2_MODULE 1

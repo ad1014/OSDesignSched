@@ -1,0 +1,10 @@
+#define __ver_register_framebuffer	f6ee0ca3
+#define register_framebuffer	_set_ver(register_framebuffer)
+#define __ver_unregister_framebuffer	b67db0d5
+#define unregister_framebuffer	_set_ver(unregister_framebuffer)
+#define __ver_registered_fb	47dfe9f9
+#define registered_fb	_set_ver(registered_fb)
+#define __ver_num_registered_fb	6c61ce70
+#define num_registered_fb	_set_ver(num_registered_fb)
+#define __ver_GET_FB_IDX	5280c630
+#define GET_FB_IDX	_set_ver(GET_FB_IDX)

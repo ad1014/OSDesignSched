@@ -1,0 +1,1 @@
+#define CONFIG_FT_NORMAL_DEBUG 1

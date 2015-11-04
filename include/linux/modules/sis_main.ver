@@ -1,0 +1,4 @@
+#define __ver_sis_malloc	3037658e
+#define sis_malloc	_set_ver(sis_malloc)
+#define __ver_sis_free	454a3cf0
+#define sis_free	_set_ver(sis_free)

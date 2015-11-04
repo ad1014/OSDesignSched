@@ -1,0 +1,1 @@
+#define CONFIG_PC300_MLPPP 1

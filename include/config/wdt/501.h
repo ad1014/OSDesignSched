@@ -1,0 +1,1 @@
+#define CONFIG_WDT_501 1

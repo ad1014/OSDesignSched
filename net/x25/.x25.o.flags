@@ -1,0 +1,3 @@
+ifeq (-e stext af_x25.o x25_dev.o x25_facilities.o x25_in.o x25_link.o x25_out.o x25_route.o x25_subr.o x25_timer.o sysctl_net_x25.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += x25.o
+endif

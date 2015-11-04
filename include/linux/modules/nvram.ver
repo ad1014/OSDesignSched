@@ -1,0 +1,16 @@
+#define __ver___nvram_read_byte	17ff2c1d
+#define __nvram_read_byte	_set_ver(__nvram_read_byte)
+#define __ver_nvram_read_byte	0f28cb91
+#define nvram_read_byte	_set_ver(nvram_read_byte)
+#define __ver___nvram_write_byte	a8813189
+#define __nvram_write_byte	_set_ver(__nvram_write_byte)
+#define __ver_nvram_write_byte	9ce3f83f
+#define nvram_write_byte	_set_ver(nvram_write_byte)
+#define __ver___nvram_check_checksum	2adec1e0
+#define __nvram_check_checksum	_set_ver(__nvram_check_checksum)
+#define __ver_nvram_check_checksum	7da28f12
+#define nvram_check_checksum	_set_ver(nvram_check_checksum)
+#define __ver___nvram_set_checksum	8f27c1c2
+#define __nvram_set_checksum	_set_ver(__nvram_set_checksum)
+#define __ver_nvram_set_checksum	2742a659
+#define nvram_set_checksum	_set_ver(nvram_set_checksum)

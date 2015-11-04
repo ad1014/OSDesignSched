@@ -1,0 +1,3 @@
+ifeq (-e stext af_rose.o rose_dev.o rose_in.o rose_link.o rose_loopback.o rose_out.o rose_route.o rose_subr.o rose_timer.o sysctl_net_rose.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += rose.o
+endif

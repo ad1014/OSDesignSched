@@ -1,0 +1,1 @@
+#define CONFIG_TMSISA_MODULE 1

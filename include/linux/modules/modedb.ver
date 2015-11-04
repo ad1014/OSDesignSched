@@ -1,0 +1,2 @@
+#define __ver___fb_try_mode	cfc9dd84
+#define __fb_try_mode	_set_ver(__fb_try_mode)

@@ -1,0 +1,10 @@
+#define __ver_crypto_register_alg	d3e04ff7
+#define crypto_register_alg	_set_ver(crypto_register_alg)
+#define __ver_crypto_unregister_alg	b1813ca4
+#define crypto_unregister_alg	_set_ver(crypto_unregister_alg)
+#define __ver_crypto_alloc_tfm	8c9f2c26
+#define crypto_alloc_tfm	_set_ver(crypto_alloc_tfm)
+#define __ver_crypto_free_tfm	66bfee60
+#define crypto_free_tfm	_set_ver(crypto_free_tfm)
+#define __ver_crypto_alg_available	2f849e07
+#define crypto_alg_available	_set_ver(crypto_alg_available)

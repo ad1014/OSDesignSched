@@ -1,0 +1,1 @@
+#define CONFIG_AMD_RNG_MODULE 1

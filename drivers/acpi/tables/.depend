@@ -1,0 +1,25 @@
+tbconvrt.o: tbconvrt.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+tbgetall.o: tbgetall.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+tbget.o: tbget.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+tbinstal.o: tbinstal.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+tbrsdt.o: tbrsdt.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+tbutils.o: tbutils.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+tbxface.o: tbxface.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h
+tbxfroot.o: tbxfroot.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/actables.h

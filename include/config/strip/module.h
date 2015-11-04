@@ -1,0 +1,1 @@
+#define CONFIG_STRIP_MODULE 1

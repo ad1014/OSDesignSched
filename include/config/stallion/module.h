@@ -1,0 +1,1 @@
+#define CONFIG_STALLION_MODULE 1

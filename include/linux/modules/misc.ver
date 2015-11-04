@@ -1,0 +1,4 @@
+#define __ver_misc_register	79329f2f
+#define misc_register	_set_ver(misc_register)
+#define __ver_misc_deregister	d89e1a57
+#define misc_deregister	_set_ver(misc_deregister)

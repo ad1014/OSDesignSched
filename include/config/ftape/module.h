@@ -1,0 +1,1 @@
+#define CONFIG_FTAPE_MODULE 1

@@ -1,0 +1,1 @@
+#define CONFIG_USB_DC2XX_MODULE 1

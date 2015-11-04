@@ -1,0 +1,3 @@
+ifeq (-e stext af_netrom.o nr_dev.o nr_in.o nr_loopback.o nr_out.o nr_route.o nr_subr.o nr_timer.o sysctl_net_netrom.o,$(strip $(subst $(comma),:,$(LDFLAGS) $(EXTRA_LDFLAGS) $(obj-y))))
+FILES_FLAGS_UP_TO_DATE += netrom.o
+endif

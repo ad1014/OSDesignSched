@@ -1,0 +1,14 @@
+#define __ver_mii_link_ok	3d79afee
+#define mii_link_ok	_set_ver(mii_link_ok)
+#define __ver_mii_nway_restart	c0679057
+#define mii_nway_restart	_set_ver(mii_nway_restart)
+#define __ver_mii_ethtool_gset	0fff6504
+#define mii_ethtool_gset	_set_ver(mii_ethtool_gset)
+#define __ver_mii_ethtool_sset	1e12f8bb
+#define mii_ethtool_sset	_set_ver(mii_ethtool_sset)
+#define __ver_mii_check_link	f5750038
+#define mii_check_link	_set_ver(mii_check_link)
+#define __ver_mii_check_media	9a54c21b
+#define mii_check_media	_set_ver(mii_check_media)
+#define __ver_generic_mii_ioctl	c95673f8
+#define generic_mii_ioctl	_set_ver(generic_mii_ioctl)

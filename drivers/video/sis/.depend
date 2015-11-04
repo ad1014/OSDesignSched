@@ -1,0 +1,124 @@
+init301.o: init301.c \
+   init301.h \
+   oem300.h \
+   oem310.h
+init301.h: \
+   osdef.h \
+   initdef.h \
+   vgatypes.h \
+   vstruct.h \
+   sis.h \
+   /home/user/linux-2.4.27/include/linux/version.h \
+   /home/user/linux-2.4.27/include/asm/io.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/linux/sisfb.h
+	@touch init301.h
+init.o: init.c \
+   init.h \
+   300vtbl.h \
+   310vtbl.h
+init.h: \
+   osdef.h \
+   initdef.h \
+   vgatypes.h \
+   vstruct.h \
+   sis.h \
+   /home/user/linux-2.4.27/include/linux/version.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/asm/io.h \
+   /home/user/linux-2.4.27/include/linux/fb.h \
+   /home/user/linux-2.4.27/include/linux/sisfb.h
+	@touch init.h
+osdef.h: \
+   $(wildcard /home/user/linux-2.4.27/include/config/fb/sis/300.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/fb/sis/315.h)
+	@touch osdef.h
+sis_accel.o: sis_accel.c \
+   /home/user/linux-2.4.27/include/linux/version.h \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/linux/errno.h \
+   /home/user/linux-2.4.27/include/linux/fb.h \
+   /home/user/linux-2.4.27/include/linux/console.h \
+   /home/user/linux-2.4.27/include/linux/selection.h \
+   /home/user/linux-2.4.27/include/linux/ioport.h \
+   /home/user/linux-2.4.27/include/linux/capability.h \
+   /home/user/linux-2.4.27/include/linux/fs.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/asm/io.h \
+   /home/user/linux-2.4.27/include/video/fbcon.h \
+   /home/user/linux-2.4.27/include/video/fbcon-cfb8.h \
+   /home/user/linux-2.4.27/include/video/fbcon-cfb16.h \
+   /home/user/linux-2.4.27/include/video/fbcon-cfb24.h \
+   /home/user/linux-2.4.27/include/video/fbcon-cfb32.h \
+   sis.h \
+   sis_accel.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/fb/sis/300.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/fb/sis/315.h)
+sis_accel.h: \
+   /home/user/linux-2.4.27/include/linux/spinlock.h
+	@touch sis_accel.h
+sis.h: \
+   /home/user/linux-2.4.27/include/linux/version.h \
+   osdef.h \
+   /home/user/linux-2.4.27/include/linux/sisfb.h \
+   vgatypes.h \
+   vstruct.h \
+   /home/user/linux-2.4.27/include/linux/spinlock.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/compat.h)
+	@touch sis.h
+sis_main.o: sis_main.c \
+   /home/user/linux-2.4.27/include/linux/version.h \
+   /home/user/linux-2.4.27/include/linux/module.h \
+   /home/user/linux-2.4.27/include/linux/moduleparam.h \
+   /home/user/linux-2.4.27/include/linux/kernel.h \
+   /home/user/linux-2.4.27/include/linux/spinlock.h \
+   /home/user/linux-2.4.27/include/linux/errno.h \
+   /home/user/linux-2.4.27/include/linux/string.h \
+   /home/user/linux-2.4.27/include/linux/mm.h \
+   /home/user/linux-2.4.27/include/linux/tty.h \
+   /home/user/linux-2.4.27/include/linux/slab.h \
+   /home/user/linux-2.4.27/include/linux/delay.h \
+   /home/user/linux-2.4.27/include/linux/fb.h \
+   /home/user/linux-2.4.27/include/linux/console.h \
+   /home/user/linux-2.4.27/include/linux/selection.h \
+   /home/user/linux-2.4.27/include/linux/ioport.h \
+   /home/user/linux-2.4.27/include/linux/init.h \
+   /home/user/linux-2.4.27/include/linux/pci.h \
+   /home/user/linux-2.4.27/include/linux/vmalloc.h \
+   /home/user/linux-2.4.27/include/linux/vt_kern.h \
+   /home/user/linux-2.4.27/include/linux/capability.h \
+   /home/user/linux-2.4.27/include/linux/fs.h \
+   /home/user/linux-2.4.27/include/linux/types.h \
+   /home/user/linux-2.4.27/include/asm/uaccess.h \
+   /home/user/linux-2.4.27/include/asm/io.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/mtrr.h) \
+   /home/user/linux-2.4.27/include/asm/mtrr.h \
+   /home/user/linux-2.4.27/include/video/fbcon.h \
+   /home/user/linux-2.4.27/include/video/fbcon-cfb8.h \
+   /home/user/linux-2.4.27/include/video/fbcon-cfb16.h \
+   /home/user/linux-2.4.27/include/video/fbcon-cfb24.h \
+   /home/user/linux-2.4.27/include/video/fbcon-cfb32.h \
+   sis.h \
+   sis_main.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/video/select.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/fb/sis/300.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/fb/sis/315.h)
+sis_main.h: \
+   /home/user/linux-2.4.27/include/linux/spinlock.h \
+   vstruct.h \
+   sis.h \
+   $(wildcard /home/user/linux-2.4.27/include/config/fb/sis/300.h) \
+   $(wildcard /home/user/linux-2.4.27/include/config/fb/sis/315.h)
+	@touch sis_main.h
+vgatypes.h: \
+   /home/user/linux-2.4.27/include/linux/ioctl.h
+	@touch vgatypes.h
+.PRECIOUS:	init301.h \
+	init.h \
+	osdef.h \
+	sis_accel.h \
+	sis.h \
+	sis_main.h \
+	vgatypes.h \
+

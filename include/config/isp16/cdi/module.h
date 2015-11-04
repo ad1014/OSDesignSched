@@ -1,0 +1,1 @@
+#define CONFIG_ISP16_CDI_MODULE 1

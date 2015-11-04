@@ -1,0 +1,1 @@
+#define CONFIG_INPUT_DB9_MODULE 1

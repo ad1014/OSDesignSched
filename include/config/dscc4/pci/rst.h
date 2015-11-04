@@ -1,0 +1,1 @@
+#undef  CONFIG_DSCC4_PCI_RST

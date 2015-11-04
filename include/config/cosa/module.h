@@ -1,0 +1,1 @@
+#define CONFIG_COSA_MODULE 1

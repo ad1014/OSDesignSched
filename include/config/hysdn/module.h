@@ -1,0 +1,1 @@
+#define CONFIG_HYSDN_MODULE 1

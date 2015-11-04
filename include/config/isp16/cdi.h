@@ -1,0 +1,1 @@
+#undef  CONFIG_ISP16_CDI

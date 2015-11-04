@@ -1,0 +1,1 @@
+#undef  CONFIG_FT_PROBE_FC10

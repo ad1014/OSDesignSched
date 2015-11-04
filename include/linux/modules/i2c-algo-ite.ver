@@ -1,0 +1,4 @@
+#define __ver_i2c_iic_add_bus	b2038395
+#define i2c_iic_add_bus	_set_ver(i2c_iic_add_bus)
+#define __ver_i2c_iic_del_bus	5cf9cd7d
+#define i2c_iic_del_bus	_set_ver(i2c_iic_del_bus)

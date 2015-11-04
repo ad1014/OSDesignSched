@@ -1,0 +1,1 @@
+#define CONFIG_ELMC_II_MODULE 1

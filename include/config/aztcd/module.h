@@ -1,0 +1,1 @@
+#define CONFIG_AZTCD_MODULE 1

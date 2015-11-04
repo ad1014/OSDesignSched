@@ -1,0 +1,1 @@
+#define CONFIG_OBMOUSE_MODULE 1

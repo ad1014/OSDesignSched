@@ -1,0 +1,10 @@
+#define __ver_init_rwsem	322cb358
+#define init_rwsem	_set_ver(init_rwsem)
+#define __ver___down_read	bebf4a44
+#define __down_read	_set_ver(__down_read)
+#define __ver___down_write	716dfc70
+#define __down_write	_set_ver(__down_write)
+#define __ver___up_read	98a5b601
+#define __up_read	_set_ver(__up_read)
+#define __ver___up_write	77fd5393
+#define __up_write	_set_ver(__up_write)

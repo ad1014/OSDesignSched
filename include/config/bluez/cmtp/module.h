@@ -1,0 +1,1 @@
+#define CONFIG_BLUEZ_CMTP_MODULE 1

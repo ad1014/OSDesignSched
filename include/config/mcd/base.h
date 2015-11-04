@@ -1,0 +1,1 @@
+#define CONFIG_MCD_BASE 0x300

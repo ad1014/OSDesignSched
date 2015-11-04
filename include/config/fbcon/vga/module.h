@@ -1,0 +1,1 @@
+#define CONFIG_FBCON_VGA_MODULE 1

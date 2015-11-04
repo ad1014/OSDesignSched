@@ -1,0 +1,1 @@
+#define CONFIG_CDU535_MODULE 1

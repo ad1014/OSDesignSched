@@ -1,0 +1,42 @@
+evevent.o: evevent.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h
+evgpeblk.o: evgpeblk.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+evgpe.o: evgpe.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+evmisc.o: evmisc.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
+evregion.o: evregion.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
+evrgnini.o: evrgnini.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+evsci.o: evsci.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h
+evxface.o: evxface.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
+evxfevnt.o: evxfevnt.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h
+evxfregn.o: evxfregn.c \
+   /home/user/linux-2.4.27/include/acpi/acpi.h \
+   /home/user/linux-2.4.27/include/acpi/acnamesp.h \
+   /home/user/linux-2.4.27/include/acpi/acevents.h \
+   /home/user/linux-2.4.27/include/acpi/acinterp.h
